@@ -1,0 +1,3 @@
+id,product,quantity
+001,solar panel,100
+001,warm pump,2

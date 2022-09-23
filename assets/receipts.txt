@@ -1,0 +1,4 @@
+001,Solar panel,100
+001,Warm pump, 2
+054,item,88
+054,gbj,980

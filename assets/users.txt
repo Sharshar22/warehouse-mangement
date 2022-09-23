@@ -1,0 +1,4 @@
+Mohamed,mo,ADMIN,MTIzNDU2
+mo,s,CASHIER,MTIzNA==
+m,1,MANAGER,MQ==
+Åla,ola,MANAGER,b2xh
