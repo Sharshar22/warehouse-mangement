@@ -62,7 +62,7 @@ public class CashierController {
             System.out.println(newFile.renameTo(new File(inventoryPath)));
         } else {
             System.out.println("Product does not exists.");
-            //print cashier menu
+
         }
 
     }

@@ -18,9 +18,9 @@ public class SignUp extends User {
     String userFilePath = "assets/users.txt";
 
     public void userDetails() throws Exception {
-        System.out.println("Enter your full name");
+        System.out.println("Enter full name");
         setFullName(sc.nextLine());
-        System.out.println("Enter your username");
+        System.out.println("Enter username");
         //check if username already exists
 
         String newUsername = sc.nextLine();
@@ -30,7 +30,7 @@ public class SignUp extends User {
         }
         setUsername(newUsername);
 
-        System.out.println("Choose your role from the following\n" +
+        System.out.println("Choose the role from the following\n" +
                 "[A] Admin\n" +
                 "[M] Manager\n" +
                 "[C] Cashier");

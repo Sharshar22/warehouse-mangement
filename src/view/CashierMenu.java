@@ -26,26 +26,24 @@ public class CashierMenu {
         char choice = sc.next().toLowerCase().charAt(0);
         switch (choice) {
             case '1':
-                // Remove sold Item
+                System.out.println("Enter sold item");
+                String removedItem = sc.nextLine();
+                cashierController.removeProductByName(removedItem);
                 System.out.println("Remove the sold item");
                 break;
             case '2':
-                // Check Items in the stock
                 cashierController.viewAllProduct();
                 break;
             case '3':
                 System.out.println("Please enter the product name which you want to delete ");
-
                 Scanner scan =  new Scanner(System.in);
                 String productName =scan.nextLine();
                 cashierController.removeProductByName(productName);
                 break;
             case '4':
-                // Create receipt for customer
                 receipts.addReceiptToReceiptFile();
                 break;
             case '5':
-                // back to the previous menu
                 MainMenu.printMainMenu();
                 break;
             case 'q':

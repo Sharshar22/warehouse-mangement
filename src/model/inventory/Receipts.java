@@ -72,4 +72,13 @@ public class Receipts {
         myWriter.close();
     }
 
+    public void viewAllReceipt () throws FileNotFoundException {
+            File receiptFile = new File(receiptPath);
+            Scanner myReader = new Scanner(receiptFile);
+
+            while (myReader.hasNextLine()) {
+                System.out.println(myReader.nextLine());
+            }
+            myReader.close();
+    }
 }
